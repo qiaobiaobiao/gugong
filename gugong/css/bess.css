@@ -1,0 +1,53 @@
+body,h1,h2,h3,h4,h5,h6,ul,dl,dd,dt,ol,li,p{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	list-style: none;
+	color: #050505;
+
+
+}
+html,body{
+	background-color: #FFF;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	color: #c2a680;
+}
+
+input,img{
+	border:0 none;
+	outline-style: none;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+.clearfix:after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	zoom: 1 ;
+}
+.warper{
+	width:1258px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.f_left{
+	float: left;
+}
+.f_right{
+	float: right;
+}

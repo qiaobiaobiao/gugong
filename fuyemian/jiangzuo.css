@@ -1,0 +1,81 @@
+.neirong .w {
+  position: relative;
+}
+.neirong .w .lujing {
+  margin-top: 15px;
+}
+.neirong .w .lujing a {
+  color: #cccccc;
+}
+.neirong .w h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 30px;
+}
+.neirong .w .shijian {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+.neirong .w .wenzi {
+  margin: 50px 0 0 50px;
+}
+.neirong .w .wenzi .renwanping {
+  margin-right: 70px;
+  width: 400px;
+  float: left;
+}
+.neirong .w .wenzi .renwanping img {
+  width: 100%;
+}
+.neirong .w .wenzi p {
+  font-size: 16px;
+  line-height: 25px;
+  text-indent: 2em;
+}
+.neirong .w .wenzi p span {
+  font-size: 18px;
+}
+.neirong .w .wenzi .jieshao {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.neirong .w .wenzi .li {
+  margin-bottom: 30px;
+}
+.neirong .w .wenzi .fenxiang {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  right: 30px;
+  margin-top: 30px;
+}
+.neirong .w .wenzi .fenxiang a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+.neirong .w .wenzi .jiaobu {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  padding-top: 50px;
+  background: url(../img/line1.png) repeat-x;
+}
+.neirong .w .wenzi .jiaobu a {
+  display: block;
+  float: left;
+  font-size: 16px;
+  width: 104px;
+  height: 101px;
+  margin: 0 68px;
+  text-align: center;
+  line-height: 30px;
+}
+.neirong .w .wenzi .jiaobu a img {
+  width: 100%;
+  height: 100%;
+}

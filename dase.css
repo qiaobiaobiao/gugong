@@ -1,0 +1,63 @@
+/*设置统一样式，去掉标签默认样式*/
+body,p,ul,ol,li,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+	margin: 0;
+	padding:0;
+	/*去除列表圆点*/
+	list-style: none;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#666;
+}
+
+a {
+	/*去掉下划线*/
+	text-decoration: none;
+	color: #666;
+}
+img,input {
+	/*去掉边框*/
+	border: none;
+	background:no-repeat;
+	/*去掉轮库线*/
+	outline-style: none;
+	padding:0;
+
+
+}
+
+
+/*清除浮动*/
+.clearfix::after {
+	/*设置标签为空*/
+	content: "";
+	/*转变成块级元素*/
+	display: block;
+
+	clear:both;
+
+	height: 0;
+	line-height: 0;
+	/*隐藏标签*/
+	visibility: hidden;
+}
+/*兼容IE*/
+.colearfix {
+	zoom: 1;
+}
+
+/*版心*/
+.w {
+	width: 1258px;
+	margin: 0 auto;
+}
+
+
+.left {
+	float: left;
+}
+.right {
+	float:right;
+}
+a:hover{
+	color: #c2a680;
+}
